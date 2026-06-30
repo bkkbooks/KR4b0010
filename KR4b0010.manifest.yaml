@@ -1,0 +1,86 @@
+canonical_identifier: bkk:krp/KR4b0010/v1
+canonical_location: https://kanripo.org/bkk/KR4b0010/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 璇璣圖詩讀法
+  date: '2015-08-30 11:48:08.691263'
+  source:
+    repository: kanripo
+    path: KR4b0010
+  image_base_urls:
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4b0010_000.yaml, hash: 'sha256:d65dd04f08172a303d4b0b75303f88791b0b33d8d9c24735a93ddc97a0e7c077'}
+  - {seq: 1, filename: KR4b0010_001.yaml, hash: 'sha256:69a011c31770c67823aed424a5139b2f56a341c558099a080b3397fa51f8db17'}
+  - {seq: 2, filename: KR4b0010_002.yaml, hash: 'sha256:d0594d320c9067f603f42dac92fb5a572d42eb615c7efc3e6894bb3f87cd7654'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4b0010_000.markers.yaml, hash: 'sha256:ad527e50b8c78febbd904dd827750c7d0c7dfb15f425c444e6a9e2946cd3e6d5'}
+  - {seq: 1, role: markers, filename: assets/KR4b0010_001.markers.yaml, hash: 'sha256:59be89d94df8d08bcdce19e155e9eb52a90f718018bd64ba894db9724945c51a'}
+  - {seq: 2, role: markers, filename: assets/KR4b0010_002.markers.yaml, hash: 'sha256:50d2b241d13a936b54b908a4b08d80add2a67baaf0e0da0ef95c635f59782d5c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4b0010_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 673
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4b0010_WYG_000-4a
+    span:
+    - body
+    - 673
+    - 1296
+  label: 記
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4b0010_WYG_000-6a
+    span:
+    - body
+    - 1296
+    - 1920
+  label: 凡例
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4b0010_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 4457
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0010_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 4344
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:94a99bf84a8e019d08e716be330c15d95fe8ad7ec63f0e3836d962a69dc1ba48
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
